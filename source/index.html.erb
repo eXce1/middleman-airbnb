@@ -2,36 +2,25 @@
   <div class="banner-content">
     <h1>Le Wagon Berlin</h1>
     <p>Learn to code with us in Berlin</p>
-        <form class="form-inline">
 
+    <form class="form-inline">
       <input type="text" class="form-control" placeholder="Where?">
-
       <input type="text" class="form-control" placeholder="When?">
-
       <select class="form-control">
-
         <option value="1" selected>1 guest</option>
-
         <option value="2">2 guests</option>
-
         <option value="3">3 guests</option>
-
       </select>
-
       <button type="submit" class="btn btn-primary">Search</button>
-
     </form>
+
   </div>
 </div>
-
-
 <h2 class= text-center> Recent flats </h2>
-
-
 <div class="container">
   <div class="row">
-     <% ["shanghai", "rio", "marseille"].each do |city| %>
-       <div class="col-xs-12 col-sm-4">
+    <% ["shanghai", "rio", "marseille"].each do |city| %>
+    <div class="col-xs-12 col-sm-4">
       <!-- insert <div class="card"> -->
       <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= city %>');">
         <div class="card-category">Popular</div>
